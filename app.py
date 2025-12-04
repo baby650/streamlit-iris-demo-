@@ -89,7 +89,7 @@ def export_excel_style_tree(decision_tree, feature_names, class_names):
 # -------------------------------------------------------------
 # Streamlit UI
 # -------------------------------------------------------------
-st.title("Iris 決定木モデル 予測アプリ（Excel風決定木表示）")
+st.title("Iris 決定木モデル 予測アプリ")
 
 sepal_length = st.number_input("がく片の長さ", 0.0, 10.0, 5.0)
 sepal_width = st.number_input("がく片の幅", 0.0, 10.0, 3.5)
