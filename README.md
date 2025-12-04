@@ -55,7 +55,7 @@ Streamlit で構築されており、ブラウザだけで利用できます。
 
 ### 参考画像（petal / sepal の位置）
 
-<img width="623" height="281" alt="スクリーンショット 2025-12-04 111701" src="https://github.com/user-attachments/assets/9d5c5f70-1385-40f5-b075-f430defea6b8" />
+![Iris samples](./iris_samples.png)
 
 ---
 
@@ -82,5 +82,3 @@ model.fit(X, y)
 ### 2. PCA (主成分分析)
 4次元（4つの特徴量）のデータを、情報の損失を最小限に抑えつつ、2次元または3次元に「要約」する手法です。
 これにより、人間が視覚的に理解できるグラフとしてデータを表現できます。
-
-
